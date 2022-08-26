@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  body {
+    @apply m-5 dark:bg-gray-600
+  }
+} */
+
+@layer components {
+  .popover-btn{
+    @apply w-[39px] h-[39px] flex justify-center items-center ml-2 p-2.5 rounded-full bg-fb-popover active:bg-fb-active cursor-pointer
+  }
+
+  .popover-panel{
+    @apply lg:w-[450px] w-[350px] absolute top-12 right-0 p-4 border border-fb-input rounded-lg shadow-lg bg-fb-header
+  }
+}
