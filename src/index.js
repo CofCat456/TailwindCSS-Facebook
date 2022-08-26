@@ -291,8 +291,8 @@ const infoBlock = document.getElementById('info-block');
 
 const infoList = [
     {
-        name: '浩安',
-        imageUrl: require('./assets/images/logo/Me.jpg'),
+        name: me.name,
+        imageUrl: me.imageUrl,
     },
     {
         name: '活動',
