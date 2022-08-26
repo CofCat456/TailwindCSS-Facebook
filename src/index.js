@@ -282,6 +282,7 @@ function activeBtn(index) {
 
 window.addEventListener('click', function (e) {
     openPanel(-1);
+    activeBtn(-1);
 });
 
 // ---------------資訊欄---------------
