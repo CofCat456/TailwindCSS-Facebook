@@ -3,7 +3,7 @@ import './index.css';
 // ---------------共用 lsit---------------
 const me = {
     name: '浩安',
-    imageUrl: require('./assets/images/logo/Me.jpg'),
+    imageUrl: require('./assets/images/logo/Me.JPG'),
 };
 
 const friend = [
