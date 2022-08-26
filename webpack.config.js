@@ -49,6 +49,9 @@ module.exports = {
                     loader: 'babel-loader',
                 },
             },
+            {
+                loader: 'image-webpack-loader',
+            },
         ],
     },
     plugins: [
