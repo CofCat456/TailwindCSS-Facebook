@@ -245,7 +245,7 @@ btnList.forEach((btn, index) => {
 });
 
 panelList.forEach((panel) => {
-    panel.getElementById.addEventListener('clicl', function (e) {
+    document.getElementById(panel).addEventListener('click', function (e) {
         e.stopPropagation();
     });
 });
@@ -287,7 +287,7 @@ function activeBtn(index) {
 }
 
 window.addEventListener('click', function (e) {
-    ß;
+    console.log(3);
     openPanel(-1);
     activeBtn(-1);
 });
@@ -529,9 +529,8 @@ function renderLiveItem() {
     });
 
     var swiper = new Swiper('.fb-live', {
-        slidesPreView: '1',
+        slidesPerView: 'auto',
         loop: false,
-        spaceBetween: 30,
         navigation: {
             prevEl: '.swiper-button-prev',
             nextEl: '.swiper-button-next',
