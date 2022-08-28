@@ -244,6 +244,12 @@ btnList.forEach((btn, index) => {
     });
 });
 
+panelList.forEach((panel) => {
+    panel.getElementById.addEventListener('clicl', function (e) {
+        e.stopPropagation();
+    });
+});
+
 function openPanel(index) {
     panelList.forEach((panel, idx) => {
         const panelDom = document.getElementById(panel);
@@ -281,6 +287,7 @@ function activeBtn(index) {
 }
 
 window.addEventListener('click', function (e) {
+    ß;
     openPanel(-1);
     activeBtn(-1);
 });
