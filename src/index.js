@@ -530,6 +530,7 @@ function renderLiveItem() {
 
     var swiper = new Swiper('.fb-live', {
         slidesPerView: 'auto',
+        slidesPerGroupAuto: true,
         loop: false,
         navigation: {
             prevEl: '.swiper-button-prev',
